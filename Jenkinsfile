@@ -11,7 +11,7 @@ pipeline{
 stages{
   stage('CheckOutCode'){
     steps{
-   checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/bvenkydevops/mavenrepo-master']])
+   checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Chanteshwar/mavenrepo-master.git']])
 	
 	}
   }
